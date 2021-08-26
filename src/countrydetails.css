@@ -5,11 +5,21 @@
   align-items: center;
   justify-content: center;
 }
+.mainContainer .backButton {
+  width: 150px;
+  justify-content: center;
+}
+.mainContainer .backButton .linkContainer .icon {
+  margin-right: 10px;
+}
 .mainContainer .country .flag {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.mainContainer .country .flag img {
+  width: 100%;
 }
 .mainContainer .country .information {
   /* background-color: chartreuse; */

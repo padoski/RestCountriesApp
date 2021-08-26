@@ -21,9 +21,8 @@ const CountryDetails = () => {
   return (
     <div className="mainContainer">
       <div className="backButton">
-        <FaLongArrowAltLeft />
         <Link to="/" className="linkContainer">
-          <i className="fas fa-arrow-left"></i>
+          <FaLongArrowAltLeft className="icon" />
           Back Home
         </Link>
       </div>
