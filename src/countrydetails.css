@@ -1,0 +1,27 @@
+.mainContainer .country {
+  padding: 20px;
+}
+.mainContainer {
+  align-items: center;
+  justify-content: center;
+}
+.mainContainer .country .flag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.mainContainer .country .information {
+  /* background-color: chartreuse; */
+  text-align: center;
+  margin-top: 30px;
+}
+.mainContainer .country .information h4 {
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.mainContainer .country .information h4 span {
+  font-size: 18px;
+  font-weight: 600;
+}
